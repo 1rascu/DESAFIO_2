@@ -19,6 +19,39 @@ a {
     color: aliceblue;
 }
 
+.bienvenido{
+
+    justify-items: center;
+    text-align: center;
+}
+
+.imginicio{
+   
+    height: 300px;
+    width: 300px;
+}
+
+.laimagen{
+    display: flex;
+    justify-content: center;   
+}
+
+#imgborde{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    transition: agregarborde1 1s;
+    
+}
+.agregarborde1{
+    border: 2px solid red;
+}
+
+.textoimagen1{
+    
+    text-align: center;
+}
+
 .tarjetas{
     grid-area: tarjetas;
     display: none;

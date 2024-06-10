@@ -1,8 +1,11 @@
 // declarar variables para jercio 1
 
-const imagen_cambia = document.querySelector("#imagen_cambia");
-console.log(imagen_cambia);
+//const imgborde
+
+
+const imgborde = document.querySelector("#imgborde");
+console.log(imgborde);
  
-imagen_cambia.addEventListener("click", () => {
-    imagen_cambia.classList.toggle("cambiar_imagen");
+imgborde.addEventListener("click", () => {
+    imgborde.classList.toggle("agregarborde1");
 });
