@@ -53,39 +53,13 @@ a {
     
     text-align: center;
 }
-
-.tarjetas{
-    grid-area: tarjetas;
-    display: none;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    justify-items: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.tarjetas2{
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    
-}
-.card2{
+.divs{
     display: flex;
-    width: 10rem;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-    gap: 20px;
 }
-.card{
-    display: none;
-    width: 20rem;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 10px;
-}
+
+
 
 
 
@@ -204,8 +178,13 @@ footer {
   }
   
   input {
-    display: none;
+    width: 20%;
   }
+  .danger{
+    color: brown;
+    font-size: 20 px;
+  }
+
   
   label {
     box-sizing: border-box;
