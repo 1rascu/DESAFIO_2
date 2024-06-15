@@ -54,21 +54,13 @@ a {
     text-align: center;
 }
 
-.tarjetas{
-    grid-area: tarjetas;
-    display: none;
-    grid-template-columns: auto auto auto;
-    gap: 8px;
-    justify-items: center;
-    align-items: center;
-    height: 100vh;
-}
 
-.tarjetas2{
+
+.tarjetas{
     display: flex ;
     justify-content: center;
     align-items: center;
-    
+  
 }
 .card2{
     display: flex;
@@ -79,8 +71,8 @@ a {
     gap: 20px;
 }
 .card{
-    display: none;
-    width: 12rem;
+
+    width: 8rem;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -88,7 +80,11 @@ a {
 }
 
 
-
+.botoncom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .logo{
     display: flex;
@@ -121,6 +117,13 @@ nav {
     font-weight: 300;
 }
 
+.boton_comprobar{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 main {
     grid-area: main;
@@ -142,6 +145,7 @@ footer {
 }
 .oculto{
     display: flex;
+    
 }
 
 .card-img-top{ 
@@ -161,34 +165,27 @@ footer {
         flex-direction: column;
         padding-bottom: 45vh;
     }
-    .tarjetas{
-        flex-direction: column;
-    }
+   
    .oculto{
         display: none;
    }
    .link{
         display: flex;
    }
-   .tarjetas{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 12px;
-    justify-items: center;
-    align-items: center;
-    height: 100vh;
-    
-   }
+
    .card{
     display: flex;
    }
-   .tarjetas2{
-    display: none;
-   }
+  
+   
    .logo{
     flex-direction: column;
     }
 }
+
+#resultado{
+    text-align: center;
+  }
 
 
 *{
