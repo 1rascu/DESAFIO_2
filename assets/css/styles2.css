@@ -55,8 +55,16 @@ a {
 }
 .divs{
     display: flex;
-    align-items: center;
-    text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 20px;
+    
+}
+.imputs2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
 }
 
 
@@ -183,6 +191,10 @@ footer {
   .danger{
     color: brown;
     font-size: 20 px;
+    
+  }
+  #resultado{
+    text-align: center;
   }
 
   

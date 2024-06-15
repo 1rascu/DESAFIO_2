@@ -58,7 +58,7 @@ a {
     grid-area: tarjetas;
     display: none;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 8px;
     justify-items: center;
     align-items: center;
     height: 100vh;
@@ -80,11 +80,11 @@ a {
 }
 .card{
     display: none;
-    width: 20rem;
+    width: 12rem;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 
 
@@ -173,7 +173,7 @@ footer {
    .tarjetas{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 12px;
     justify-items: center;
     align-items: center;
     height: 100vh;
@@ -203,9 +203,16 @@ footer {
     display:block;
   }
   
-  input {
-    display: none;
+  .danger{
+    color: brown;
+    font-size: 20 px;
+    
   }
+  #resultado{
+    text-align: center;
+  }
+
+ 
   
   label {
     box-sizing: border-box;
